@@ -1,3 +1,4 @@
+# Adaptive Resource Allocation for Real-Time Containers
 
 This is a installation guide for an Adaptive Resource Allocation for Real-Time Containers.
 
@@ -8,9 +9,10 @@ The installation steps are the following
 
 
 
-## 1. Install and configure Linux kernel 
+## 1. Install and Configure Linux Kernel 
 The tested Linux Kernel that supports the framework is Linux Kernel v5.0.21:
-1.Clone the Linux Kernel 
+
+1. Clone the Linux Kernel 
 > git clone --depth 1 --single-branch --branch v5.0.21 git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 2. Install build tools needed for kernel compilation. 
 > sudo apt install git build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex
@@ -27,7 +29,9 @@ The tested Linux Kernel that supports the framework is Linux Kernel v5.0.21:
 8. Reboot the system
 
 
---- Linux containers
+## Linux Containers
+
+## Adaptation Policies
 
 
 
