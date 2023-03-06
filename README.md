@@ -1,11 +1,14 @@
-# Adaptive Resource Allocation for Real-Time Containers
+# Adaptive Resource Allocation Framework for Real-Time Containers
 
-This is a installation guide for an Adaptive Resource Allocation for Real-Time Containers.
+This is a installation guide for an Adaptive Resource Allocation Framework for Real-Time Containers.
 
 The installation steps are the following
 1. Install and configure Linux kernel
 2. Make a custom container that supports resource adaptation
 3. Define policies to adapt the resources
+
+Dependencies:
+- docker
 
 
 
@@ -25,13 +28,20 @@ The tested Linux Kernel that supports the framework is Linux Kernel v5.0.21:
 7. Compile & Install the kernel
 > make -j20
 > sudo make modules_install -j20
+ 
 > sudo make install -j20
 8. Reboot the system
 
 
-## Linux Containers
+## Adaptive Containers
+The source codea of an adaptive rt container can be found in the directory  'rt_container'. 
 
-## Adaptation Policies
+### Build the container
+> make
+ 
+### create a docker container
+> make docker
+>
 
 
 
