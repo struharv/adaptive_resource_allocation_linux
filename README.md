@@ -15,7 +15,7 @@ The work is based on the HCBS (Hierarchical Constant Bandwidh Server) patch by A
 
 
 ## 1. Install and Configure Linux Kernel 
-The tested Linux Kernel that supports the framework is Linux Kernel v5.2.8:
+The Framework is tested in Linux Kernel v5.2.8. The installation steps are the follows:
 
 1. Clone the Linux Kernel 
 > git clone --depth 1 --single-branch --branch v5.2.8 git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
